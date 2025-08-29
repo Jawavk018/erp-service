@@ -1,0 +1,12 @@
+package com.tech3.erp.repository;
+
+import com.tech3.erp.entity.PieceEntry;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PieceEntryRepository extends JpaRepository<PieceEntry, Long> {
+}
